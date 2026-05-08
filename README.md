@@ -44,6 +44,9 @@ python main_h36m_3d.py --kernel_size 10 --dct_n 20 --input_n 50 --output_n 10 --
 python main_cmu_mocap.py --kernel_size 10 --dct_n 20 --input_n 50 --output_n 10 --skip_rate 1 --batch_size 128 --test_batch_size 128 --in_features 75  --epoch 100
 ```
 
+### Acknowledgments
+The overall code framework is adapted from [_History Repeats Itself: Human Motion Prediction via Motion Attention_](https://github.com/wei-mao-2019/HisRepItself) 
+
 ### Citation
 This paper is currently under review for *The Visual Computer*. If you find this repo useful, please consider citing our paper:
 
@@ -52,6 +55,3 @@ This paper is currently under review for *The Visual Computer*. If you find this
   title={Class-Enhanced Spatiotemporal Attention Modeling for Multi-Scale Human Motion Prediction},
   journal={The Visual Computer}
 }
-
-Acknowledgments
-The overall code framework is adapted from [_History Repeats Itself: Human Motion Prediction via Motion Attention_](https://github.com/wei-mao-2019/HisRepItself) 
