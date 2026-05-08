@@ -1,8 +1,9 @@
-## 
-This is the code for the paper
-Class-Enhanced Spatiotemporal Attention Modeling for Multi-Scale Human Motion Prediction
-## Introduction
-![Framework](images/framework.png)
+## Overview
+This is the code for the paper:  
+**Class-Enhanced Spatiotemporal Attention Modeling for Multi-Scale Human Motion Prediction**
+
+### Introduction
+![Framework](image/framework.png)
 
 ### Dependencies
 
@@ -11,7 +12,7 @@ Class-Enhanced Spatiotemporal Attention Modeling for Multi-Scale Human Motion Pr
 * Pytorch 1.7.0
 
 ### Get the Data
-We use two public datasets in this work:
+All datasets used in this work can be accessed from the official public links:
 - Human3.6M: https://paperswithcode.com/dataset/human3-6m
 - CMU Mocap Dataset: http://mocap.cs.cmu.edu/
 
@@ -43,8 +44,8 @@ python main_h36m_3d.py --kernel_size 10 --dct_n 20 --input_n 50 --output_n 10 --
 python main_cmu_mocap.py --kernel_size 10 --dct_n 20 --input_n 50 --output_n 10 --skip_rate 1 --batch_size 128 --test_batch_size 128 --in_features 75  --epoch 100
 ```
 
-## Citation
-This paper is currently under review for The Visual Computer. If you find this repo useful, please consider citing our paper:
+### Citation
+This paper is currently under review for *The Visual Computer*. If you find this repo useful, please consider citing our paper:
 
 ```bibtex
 @article{CMHAP,
@@ -52,6 +53,5 @@ This paper is currently under review for The Visual Computer. If you find this r
   journal={The Visual Computer}
 }
 
-
-### Acknowledgments
+Acknowledgments
 The overall code framework is adapted from [_History Repeats Itself: Human Motion Prediction via Motion Attention_](https://github.com/wei-mao-2019/HisRepItself) 
